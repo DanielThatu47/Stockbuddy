@@ -6,7 +6,7 @@ const fetch = require('node-fetch');
 require('dotenv').config();
 
 // Model API base URL
-const MODEL_API_URL = process.env.MODEL_API_URL || 'http://localhost:5001';
+const MODEL_API_URL = process.env.MODEL_API_URL;
 console.log('Model API URL configured as:', MODEL_API_URL);
 
 // Get all predictions for the current user

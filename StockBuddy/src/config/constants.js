@@ -1,4 +1,4 @@
-export const API_URL = 'http://192.168.214.238:5000';
+export const API_URL = 'https://stockbuddymobilebackend.vercel.app/api';
 export const MODEL_BACKEND_URL = 'http://192.168.214.238:5001';
 
 export const STOCK_EXCHANGES = [
